@@ -8,7 +8,6 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: Text('Home page'),
-
       ),
       backgroundColor: Color(0xffEDEDED),
     );

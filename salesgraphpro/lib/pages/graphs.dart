@@ -1,10 +1,12 @@
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
+import 'package:salesgraphpro/pages/data.dart';
 
 class GraphPage extends StatefulWidget {
-  const GraphPage({super.key});
+
+  final SalesData salesData;
+
+  const GraphPage({required this.salesData, Key? key}) : super(key: key);
 
   @override
   State<GraphPage> createState() => _GraphPageState();
@@ -21,15 +23,22 @@ class _GraphPageState extends State<GraphPage> {
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      child: Scaffold(
-        body: SfCircularChart(
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Gráfico de Ventas'),
+        
+      ),
+      body: Center(
+        child: SfCircularChart(
           backgroundColor: Color(0xffEDEDED),
-          title: 
-            ChartTitle(text: 'Cantidad de ventas por regiones en millones'),
-          legend: 
-            Legend(isVisible: true, overflowMode: LegendItemOverflowMode.wrap,position: LegendPosition.bottom),
-          tooltipBehavior: TooltipBehavior(), 
+          title:
+              ChartTitle(text: 'Cantidad de ventas por regiones en millones'),
+          legend: Legend(
+            isVisible: true,
+            overflowMode: LegendItemOverflowMode.wrap,
+            position: LegendPosition.bottom,
+          ),
+          tooltipBehavior: TooltipBehavior(),
           series: <CircularSeries>[
             PieSeries<GDPData, String>(
               dataSource: _chartData,
@@ -37,22 +46,27 @@ class _GraphPageState extends State<GraphPage> {
               yValueMapper: (GDPData data, _) => data.gdp,
               dataLabelSettings: DataLabelSettings(isVisible: true),
               pointColorMapper: (GDPData data, _) => data.color,
-              selectionBehavior: SelectionBehavior(selectedBorderWidth: 1,selectedBorderColor: const Color.fromARGB(255, 54, 244, 155), enable: true),
+              selectionBehavior: SelectionBehavior(
+                selectedBorderWidth: 1,
+                selectedBorderColor: const Color.fromARGB(255, 54, 244, 155),
+                enable: true,
+              ),
               explode: true,
             ),
           ],
         ),
       ),
+      backgroundColor: Color(0xffEDEDED),
     );
   }
 
-  List<GDPData> getChartData() {
+    List<GDPData> getChartData() {
     final List<GDPData> chartData = [
-      GDPData('America', 1600,Color(0xff005F58)),
-      GDPData('Europa', 2800,Color(0xff004F5F)),
-      GDPData('Africa', 500,Color(0xff00375F)),
-      GDPData('Oseania', 1200,Color(0xff001F5F)),
-      GDPData('Asia', 2000,Color(0xff00075F)),
+      GDPData('America',widget.salesData.americaSales, Color(0xff005F58)),
+      GDPData('Europa', widget.salesData.europeSales, Color(0xff004F5F)),
+      GDPData('Africa', widget.salesData.africaSales, Color(0xff00375F)),
+      GDPData('Oceania', widget.salesData.oceaniaSales, Color(0xff001F5F)),
+      GDPData('Asia', widget.salesData.asiaSales, Color(0xff00075F)),
     ];
     return chartData;
   }
@@ -61,6 +75,6 @@ class _GraphPageState extends State<GraphPage> {
 class GDPData {
   GDPData(this.continent, this.gdp, this.color);
   final String continent;
-  final int gdp;
+  final double gdp;
   final Color color;
 }
