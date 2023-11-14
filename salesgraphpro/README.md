@@ -7,12 +7,12 @@
 - Ignacio Muñoz (Arquitecto de software)
 
 ## Caso De Uso
-    1.- Perfil del Usuario: Los usuarios tienen acceso a su perfil personal. Pueden ver información como nombre, correo electrónico, ubicación, y otros detalles relevantes.
-    2.- Visualización de Gráficos:Los usuarios pueden acceder a la sección de gráficos, donde encuentran dos tipos de visualizaciones principales: gráfico de torta y gráfico de líneas.
-    3.- Gráfico de Torta: Al seleccionar la opción del gráfico de torta, los usuarios pueden visualizar datos relacionados con la cantidad de ventas realizadas en distintas regiones.
-    4.- Gráfico de Líneas: La opción de gráfico de líneas muestra el historial de ventas realizadas en distintas regiones en un año.
-    5.- Interacción con Gráficos: Los usuarios pueden interactuar con los gráficos tocando elementos específicos para obtener detalles adicionales. Por ejemplo, tocar una porción del gráfico de torta podría mostrar la proporción ventas .
-    6.- Análisis de Datos: Con la capacidad de ver y analizar gráficos, los usuarios pueden tomar decisiones informadas sobre su comportamiento financiero. Esto facilita la identificación de áreas de oportunidad para ahorros o ajustes en el gasto.
+- Perfil del Usuario: Los usuarios tienen acceso a su perfil personal. Pueden ver información como nombre, correo electrónico, ubicación, y otros detalles relevantes.
+- Visualización de Gráficos:Los usuarios pueden acceder a la sección de gráficos, donde encuentran dos tipos de visualizaciones principales: gráfico de torta y gráfico de líneas.
+- Gráfico de Torta: Al seleccionar la opción del gráfico de torta, los usuarios pueden visualizar datos relacionados con la cantidad de ventas realizadas en distintas regiones.
+- Gráfico de Líneas: La opción de gráfico de líneas muestra el historial de ventas realizadas en distintas regiones en un año.
+- Interacción con Gráficos: Los usuarios pueden interactuar con los gráficos tocando elementos específicos para obtener detalles adicionales. Por ejemplo, tocar una porción del gráfico de torta podría mostrar la proporción ventas .
+- Análisis de Datos: Con la capacidad de ver y analizar gráficos, los usuarios pueden tomar decisiones informadas sobre su comportamiento financiero. Esto facilita la identificación de áreas de oportunidad para ahorros o ajustes en el gasto.
 
 
 ## Diseño
