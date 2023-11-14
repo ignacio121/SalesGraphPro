@@ -7,6 +7,7 @@
 - Ignacio Muñoz (Arquitecto de software)
 
 ## Caso De Uso
+
 - Perfil del Usuario: Los usuarios tienen acceso a su perfil personal. Pueden ver información como nombre, correo electrónico, ubicación, y otros detalles relevantes.
 - Visualización de Gráficos:Los usuarios pueden acceder a la sección de gráficos, donde encuentran dos tipos de visualizaciones principales: gráfico de torta y gráfico de líneas.
 - Gráfico de Torta: Al seleccionar la opción del gráfico de torta, los usuarios pueden visualizar datos relacionados con la cantidad de ventas realizadas en distintas regiones.
@@ -14,19 +15,17 @@
 - Interacción con Gráficos: Los usuarios pueden interactuar con los gráficos tocando elementos específicos para obtener detalles adicionales. Por ejemplo, tocar una porción del gráfico de torta podría mostrar la proporción ventas .
 - Análisis de Datos: Con la capacidad de ver y analizar gráficos, los usuarios pueden tomar decisiones informadas sobre su comportamiento financiero. Esto facilita la identificación de áreas de oportunidad para ahorros o ajustes en el gasto.
 
-
 ## Diseño
 
-El diseño del proyecto consiste en tres pestañas:
--Gráficos: La pestaña graficos contendrá los graficos correspondientes.
--Inicio: Contendrá la información de la aplicación.
--Perfil: Contendrá la información del perfil del usuario.
+El diseño del proyecto se fundamenta en consideraciones clave para representar el caso de uso y desarrollar una interfaz efectiva y atractiva. A continuación, se detallan las decisiones de diseño y se incorporan maquetas que describen la estructura visual de cada una de las tres pestañas principales:
 
-El prototipo del proyecto fue hecho en las primeras reuniones en la plataforma de lucidChart. 
+- Gráficos: Esta pestaña albergará diversos gráficos correspondientes a la representación visual de datos específicos.
 
-Podemos verlo en el siguiente LINK
+- Inicio: La pestaña de inicio se dedicará a proporcionar información clave sobre la aplicación, detallando su propósito, características principales y otros aspectos relevantes.
 
-- [LucidChart SalesGraphPro](https://lucid.app/lucidchart/9c096983-115a-4f63-ab6e-4244a90350cd/edit?viewport_loc=124%2C65%2C2994%2C1513%2C0_0&invitationId=inv_a2d4f93e-b6ec-4a02-a4fb-4d985f7d817c)
+- Perfil: La pestaña de perfil estará destinada a exhibir información personalizada del usuario, incluyendo detalles como el nombre, foto de perfil y cualquier otra información relacionada.
+
+El desarrollo del prototipo del proyecto se llevó a cabo durante las primeras reuniones utilizando la plataforma Lucidchart. Para visualizar el prototipo y obtener una visión más detallada del diseño, se puede acceder al siguiente [LINK](https://lucid.app/lucidchart/9c096983-115a-4f63-ab6e-4244a90350cd/edit?viewport_loc=124%2C65%2C2994%2C1513%2C0_0&invitationId=inv_a2d4f93e-b6ec-4a02-a4fb-4d985f7d817c). Este prototipo inicial proporciona una representación visual de la estructura y la interfaz general del proyecto, sirviendo como base para futuras iteraciones y desarrollos.
 
 ![LucidChart-imagen](https://github.com/ignacio121/SalesGraphPro/blob/graphs/salesgraphpro/assets/lucidchart.png)
 
