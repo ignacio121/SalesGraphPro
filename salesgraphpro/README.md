@@ -32,7 +32,9 @@ El desarrollo del prototipo del proyecto se llevó a cabo durante las primeras r
 
 ## implementación
 
-Para la implementacion de nuestro caso, se hace la utilzacion de syncfusion_flutter_charts la cual encontramos que para la realizacion de la tarea, nos brindaba mas opciones y libertad a la hora de desarrollar. Hacemos la utilizacion de **PieSeries** para representar un grafico de torta y **Line series** para representar un grafico de lineas multiples. Estas funcionalidades estan incluidas dentro de la pagina **graphs.dart**, la cual forma parte de un conjunto de 3 paginas, incluiyendo esta. Para poder navegar dentro de la pagina lo primero que se hace uso es la llamada de la pagina **firstpage.dart** la cual es la encargada de mostrar la pagina principal y la que cuenta con las funciones para navegar dentro de nuestra aplicacion.
+Para la implementación de nuestro caso, optamos por emplear la librería `syncfusion_flutter_charts`, dado que ofrecía una amplia gama de opciones y flexibilidad para llevar a cabo la tarea. En particular, elegimos utilizar `PieSeries` para representar un gráfico de torta y `LineSeries` para plasmar un gráfico de líneas múltiples.
+
+Estas funcionalidades se encuentran integradas en la página `graphs.dart`, la cual constituye una de las tres páginas esenciales de nuestra aplicación. Para navegar por esta interfaz, inicializamos la aplicación con la página `firstpage.dart`. Esta página actúa como la entrada principal, exhibiendo la interfaz principal y albergando las funciones necesarias para facilitar la navegación dentro de nuestra aplicación. Este diseño modular permite una estructura más clara y eficiente para la implementación y mantenimiento de la aplicación.
 
 
 ## Arquitectura
