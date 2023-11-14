@@ -39,7 +39,7 @@ class _GraphsState extends State<Graphs> {
                     showGraphPage = true;
                   });
                 },
-                child: Text('Mostrar GraphPage'),
+                child: Text('Mostrar CircularGraph'),
               ),
               ElevatedButton(
                 onPressed: () {
