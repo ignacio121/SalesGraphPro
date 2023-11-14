@@ -1,19 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:salesgraphpro/pages/firstpage.dart';
 
-void main() => runApp(Aplication());
+void main() => runApp(const Aplication());
 
-class Aplication extends StatelessWidget{
+class Aplication extends StatelessWidget {
+  const Aplication({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Navigation",
+      title: "Navegación",
       debugShowCheckedModeBanner: false,
-      home: FirstPage(),
+      home: const FirstPage(),
       theme: ThemeData(
-        primaryColor: Color(0xFF2FF008E)
-        
-      ),
+          // ignore: use_full_hex_values_for_flutter_colors
+          primaryColor: const Color(0xff2ff008e)),
     );
   }
 }

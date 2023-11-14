@@ -4,7 +4,7 @@ import 'package:salesgraphpro/pages/home.dart';
 import 'package:salesgraphpro/pages/profile.dart';
 
 class FirstPage extends StatefulWidget {
-  FirstPage({super.key});
+  const FirstPage({super.key});
 
   @override
   State<FirstPage> createState() => _FirstPageState();
@@ -20,16 +20,16 @@ class _FirstPageState extends State<FirstPage> {
   }
 
   final List _pages = [
-    Graphs(),
+    const Graphs(),
     HomePage(),
-    ProfilePage(),
+    const ProfilePage(),
   ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('SalesGraphPro'),
+        title: const Text('SalesGraphPro'),
         centerTitle: true,
         backgroundColor: Color(0xFF005F40),
       ),
@@ -39,8 +39,7 @@ class _FirstPageState extends State<FirstPage> {
           selectedItemColor: Color(0xffEDEDED),
           currentIndex: _selectedIndex,
           onTap: _navigateBottom,
-          items: [
-            //Graficos
+          items: const [
             BottomNavigationBarItem(
               icon: Icon(Icons.auto_graph_outlined),
               label: 'Graficos',
