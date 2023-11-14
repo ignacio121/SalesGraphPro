@@ -30,7 +30,7 @@ El desarrollo del prototipo del proyecto se llevó a cabo durante las primeras r
 ![LucidChart-imagen](https://github.com/ignacio121/SalesGraphPro/blob/graphs/salesgraphpro/assets/lucidchart.png)
 
 
-## implementación
+## Implementación
 
 Para la implementación de nuestro caso, optamos por emplear la librería `syncfusion_flutter_charts`, dado que ofrecía una amplia gama de opciones y flexibilidad para llevar a cabo la tarea. En particular, elegimos utilizar `PieSeries` para representar un gráfico de torta y `LineSeries` para plasmar un gráfico de líneas múltiples.
 
