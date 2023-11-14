@@ -11,7 +11,7 @@ class Aplication extends StatelessWidget{
       debugShowCheckedModeBanner: false,
       home: FirstPage(),
       theme: ThemeData(
-        primaryColor: Color(0xFF2FF008E)
+        primaryColor: Color.fromARGB(241, 0, 4, 255)
         
       ),
     );

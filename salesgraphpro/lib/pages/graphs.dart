@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
 
@@ -51,7 +49,7 @@ class _GraphPageState extends State<GraphPage> {
       GDPData('America', 1600,Color(0xff005F58)),
       GDPData('Europa', 2800,Color(0xff004F5F)),
       GDPData('Africa', 500,Color(0xff00375F)),
-      GDPData('Oseania', 1200,Color(0xff001F5F)),
+      GDPData('Oceanía', 1200,Color(0xff001F5F)),
       GDPData('Asia', 2000,Color(0xff00075F)),
     ];
     return chartData;
