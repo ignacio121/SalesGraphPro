@@ -54,6 +54,6 @@ La arquitectura propuesta para el proyecto se basa en una estructura por capas q
 
 A continuación, se presenta un diagrama de arquitectura de alto nivel que representa la relación entre los archivos mencionados:
 
-![Diagrama-arquitectura]((https://github.com/ignacio121/SalesGraphPro/blob/graphs/salesgraphpro/assets/diagrama.png))
+![Diagrama-arquitectura](https://github.com/ignacio121/SalesGraphPro/blob/graphs/salesgraphpro/assets/diagrama.png)
 
 Este enfoque por capas proporciona una estructura clara y modular que facilita la expansión y el mantenimiento del código a medida que el proyecto evoluciona. Además, la división en archivos dedicados a funciones específicas mejora la legibilidad y facilita la colaboración en el desarrollo del proyecto.
